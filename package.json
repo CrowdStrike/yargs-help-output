@@ -1,0 +1,59 @@
+{
+  "name": "yargs-help-output",
+  "version": "0.0.0",
+  "description": "Update docs to include the full output of yargs help",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/CrowdStrike/yargs-help-output.git"
+  },
+  "license": "MIT",
+  "author": "CrowdStrike UI Team",
+  "main": "src",
+  "bin": {
+    "yargs-help-output": "bin/index.js"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "scripts": {
+    "lint:git": "commitlint --default-branch main",
+    "lint:js": "eslint . --ext js,json",
+    "lint:md": "remark -f README.md",
+    "start": "yargs-help-output",
+    "release": "standard-version",
+    "test": "mocha --recursive"
+  },
+  "standard-version": {
+    "scripts": {
+      "precommit": "yargs-help-output README.md --npm-script-name start",
+      "posttag": "git push --follow-tags --atomic"
+    }
+  },
+  "dependencies": {
+    "execa": "^5.0.0",
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {
+    "@crowdstrike/commitlint": "^2.1.0",
+    "chai": "^4.3.0",
+    "chai-as-promised": "^7.1.1",
+    "chai-fs": "^2.0.0",
+    "eslint": "^7.19.0",
+    "eslint-config-crowdstrike": "^3.0.1",
+    "eslint-config-crowdstrike-node": "^3.0.0",
+    "eslint-plugin-json-files": "0.8.1",
+    "eslint-plugin-mocha": "^8.0.0",
+    "eslint-plugin-node": "^11.1.0",
+    "mocha": "^8.2.1",
+    "mocha-helpers": "^5.1.0",
+    "remark-cli": "^9.0.0",
+    "remark-preset-lint-crowdstrike": "^2.0.0",
+    "renovate-config-standard": "^2.1.1",
+    "tmp": "0.2.1",
+    "yargs-help-output": "link:"
+  },
+  "engines": {
+    "node": "^10.17 || >=12"
+  }
+}
