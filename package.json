@@ -26,7 +26,8 @@
   },
   "standard-version": {
     "scripts": {
-      "precommit": "yargs-help-output README.md --npm-script-name start",
+      "prerelease": "yargs-help-output README.md --npm-script-name start",
+      "precommit": "git add .",
       "posttag": "git push --follow-tags --atomic"
     }
   },
