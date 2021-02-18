@@ -52,7 +52,7 @@
     "renovate-config-standard": "^2.1.1",
     "standard-version": "^9.1.1",
     "tmp": "0.2.1",
-    "yargs-help-output": "link:"
+    "yargs-help-output": "file:"
   },
   "engines": {
     "node": "^10.17 || >=12"
