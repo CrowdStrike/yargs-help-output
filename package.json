@@ -20,7 +20,6 @@
     "lint:git": "commitlint --default-branch main",
     "lint:js": "eslint . --ext js,json",
     "lint:md": "remark -f README.md",
-    "start": "yargs-help-output",
     "release": "standard-version",
     "test": "mocha --recursive"
   },
