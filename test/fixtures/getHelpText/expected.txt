@@ -1,0 +1,45 @@
+my-cli.js [command]
+
+Commands:
+  my-cli.js my-command-1  my command 1 description
+  my-cli.js my-command-2  my command 2
+                          multi
+                          line
+                          description
+
+Options:
+  --help                Show help                                      [boolean]
+  --version             Show version number                            [boolean]
+  --my-option-1, --mo1  my option 1 description
+                                         [string] [default: "my option 1 value"]
+
+my-cli.js my-command-1
+
+my command 1 description
+
+Options:
+  --help                            Show help                          [boolean]
+  --version                         Show version number                [boolean]
+  --my-option-1, --mo1              my option 1 description
+                                         [string] [default: "my option 1 value"]
+  --my-command-1-option-1, --mc1o1  my command 1 option 1 description
+                               [string] [default: "my command 1 option 1 value"]
+  --my-command-1-option-2, --mc1o2  my command 1 option 2 description
+                               [string] [default: "my command 1 option 2 value"]
+
+my-cli.js my-command-2
+
+my command 2
+multi
+line
+description
+
+Options:
+  --help                            Show help                          [boolean]
+  --version                         Show version number                [boolean]
+  --my-option-1, --mo1              my option 1 description
+                                         [string] [default: "my option 1 value"]
+  --my-command-2-option-1, --mc2o1  my command 2 option 1 description
+                               [string] [default: "my command 2 option 1 value"]
+  --my-command-2-option-2, --mc2o2  my command 2 option 2 description
+                               [string] [default: "my command 2 option 2 value"]
