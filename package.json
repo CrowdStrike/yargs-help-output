@@ -27,7 +27,7 @@
   "standard-version": {
     "scripts": {
       "prerelease": "yargs-help-output README.md --npm-script-name start",
-      "precommit": "git add .",
+      "precommit": "git add README.md",
       "posttag": "git push --follow-tags --atomic"
     }
   },
