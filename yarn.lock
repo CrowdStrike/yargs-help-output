@@ -145,10 +145,10 @@
   dependencies:
     chalk "^4.0.0"
 
-"@crowdstrike/commitlint@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@crowdstrike/commitlint/-/commitlint-3.0.0.tgz#e1da400b20de8c55991ee919627d78ef34d2baf6"
-  integrity sha512-2Eu/YWj6/ZEC6tP0iYNElTXTc7XqxxdYM8VcHd0lFCIu09rlrWikEK0JepO7z9AB3szZFtPipLlCuBryBfkQhg==
+"@crowdstrike/commitlint@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@crowdstrike/commitlint/-/commitlint-4.0.0.tgz#e17e39aab48075ff845d1836a89d393256e5bc78"
+  integrity sha512-2W8Rr3uBpgjsP0bhNFCB1YepbOhddfjSaLzZo0Wu2Vq5CLbLiWZGin2NwCcJvPtf8YeSqauxspz1M/A9F6pF4g==
   dependencies:
     "@commitlint/config-conventional" "^12.0.0"
     "@commitlint/format" "^12.0.0"
@@ -158,7 +158,7 @@
     commitlint-format-junit "^1.1.4"
     debug "^4.1.1"
     execa "^5.0.0"
-    yargs "^16.2.0"
+    yargs "^17.0.0"
 
 "@eslint/eslintrc@^0.3.0":
   version "0.3.0"
@@ -4000,6 +4000,19 @@ yargs@16.2.0, yargs@^16.0.0, yargs@^16.2.0:
   version "16.2.0"
   resolved "https://registry.npmjs.org/yargs/-/yargs-16.2.0.tgz#1c82bf0f6b6a66eafce7ef30e376f49a12477f66"
   integrity sha512-D1mvvtDG0L5ft/jGWkLpG1+m0eQxOfaBvTNELraWj22wSVUMWxZUvYgJYcKh6jGGIkJFhH4IZPQhR4TKpc8mBw==
+  dependencies:
+    cliui "^7.0.2"
+    escalade "^3.1.1"
+    get-caller-file "^2.0.5"
+    require-directory "^2.1.1"
+    string-width "^4.2.0"
+    y18n "^5.0.5"
+    yargs-parser "^20.2.2"
+
+yargs@^17.0.0:
+  version "17.0.1"
+  resolved "https://registry.yarnpkg.com/yargs/-/yargs-17.0.1.tgz#6a1ced4ed5ee0b388010ba9fd67af83b9362e0bb"
+  integrity sha512-xBBulfCc8Y6gLFcrPvtqKz9hz8SO0l1Ni8GgDekvBX2ro0HRQImDGnikfc33cgzcYUSncapnNcZDjVFIH3f6KQ==
   dependencies:
     cliui "^7.0.2"
     escalade "^3.1.1"
