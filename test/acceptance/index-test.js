@@ -10,6 +10,8 @@ const _fixturesPath = path.join(__dirname, '../fixtures');
 const binPath = require.resolve('../../bin');
 
 describe(function() {
+  this.timeout(5e3);
+
   const fixturesPath = path.join(_fixturesPath, 'bin');
 
   setUpTmpDir();
