@@ -1,5 +1,7 @@
 # yargs-help-output
 
+[![npm version](https://badge.fury.io/js/yargs-help-output.svg)](https://badge.fury.io/js/yargs-help-output)
+
 Update docs to include the full output of yargs help
 
 ## CLI API
