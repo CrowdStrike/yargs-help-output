@@ -22,7 +22,7 @@
     "lint:md": "remark -f README.md",
     "start": "yargs-help-output",
     "release": "standard-version --commit-all",
-    "test": "mocha --recursive"
+    "test": "mocha"
   },
   "standard-version": {
     "scripts": {
