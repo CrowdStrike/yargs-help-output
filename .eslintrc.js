@@ -15,6 +15,7 @@ module.exports = {
       extends: 'plugin:mocha/recommended',
       rules: {
         'mocha/no-setup-in-describe': 'off',
+        'mocha/no-empty-description': 'off',
       },
     },
   ],
