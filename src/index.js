@@ -1,6 +1,5 @@
 'use strict';
 
-const execa = require('execa');
 const { replaceFile } = require('./fs');
 const path = require('path');
 
@@ -65,6 +64,8 @@ async function _getHelpText({
   }
 
   args.push('--help');
+
+  const { execa } = await import('execa');
 
   let { stdout } = await execa(command, args, {
     preferLocal: true,

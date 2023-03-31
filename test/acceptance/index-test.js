@@ -4,10 +4,15 @@ const { describe, it, setUpTmpDir } = require('../helpers/mocha');
 const { expect } = require('../helpers/chai');
 const path = require('path');
 const fs = require('fs').promises;
-const execa = require('execa');
 
 const _fixturesPath = path.join(__dirname, '../fixtures');
 const binPath = require.resolve('../../bin');
+
+async function execa() {
+  const { execa } = await import('execa');
+
+  return execa.apply(this, arguments);
+}
 
 describe(function() {
   this.timeout(5e3);
