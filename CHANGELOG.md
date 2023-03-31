@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0](https://github.com/CrowdStrike/yargs-help-output/compare/v2.0.1...v3.0.0) (2023-03-31)
+
+
+### Bug Fixes
+
+* **deps:** update dependency execa to v7 ([abc4aba](https://github.com/CrowdStrike/yargs-help-output/commit/abc4aba2d53e2ee9d4c85372c37e821f19022586))
+* update execa to v6 ([46b750d](https://github.com/CrowdStrike/yargs-help-output/commit/46b750db8a39dd6d5b1fdae97c57c3d834d06397))
+
 ### [2.0.1](https://github.com/CrowdStrike/yargs-help-output/compare/v2.0.0...v2.0.1) (2021-06-15)
 
 ### [1.0.4](https://github.com/CrowdStrike/yargs-help-output/compare/v1.0.3...v1.0.4) (2021-02-18)
