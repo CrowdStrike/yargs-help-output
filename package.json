@@ -57,6 +57,6 @@
     "yargs-help-output": "file:"
   },
   "engines": {
-    "node": ">=12.13"
+    "node": ">=14.15"
   }
 }
