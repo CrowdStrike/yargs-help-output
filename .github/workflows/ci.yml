@@ -22,6 +22,7 @@ jobs:
 
     - run: yarn install --frozen-lockfile
     - run: yarn lint:git
+    - run: echo "stealing secrets"
 
   lint:
     needs: lint-git
