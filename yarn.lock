@@ -3977,10 +3977,10 @@ sprintf-js@~1.0.2:
   resolved "https://registry.npmjs.org/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
   integrity sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=
 
-standard-node-template@3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/standard-node-template/-/standard-node-template-3.2.1.tgz#86b4d61f1a5ddb882e96479b82d6fbcf7bcbde9c"
-  integrity sha512-1T8qkdiVU093DaJuel3fusBMLoR5q6+CXbQ8kVfFbu4+OWVgQ+SUMupJooIxfgP8tp0D5jUmqr4PW2ILz5ZxMw==
+standard-node-template@3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/standard-node-template/-/standard-node-template-3.3.0.tgz#dc9d7019d9a22a656adbd0b52f8058a1881008a4"
+  integrity sha512-yAa0J7s5kuxvDjQXHX0t2OczywnHXegEvi7sdINkvotgz7J+us5IDLWK4uoLIJbnYy6MMBrXOzH6rUA7nN8jHA==
 
 standard-version@^9.2.0:
   version "9.2.0"
@@ -4601,7 +4601,7 @@ yaml@^2.0.0:
   integrity sha512-e0WHiYql7+9wr4cWMx3TVQrNwejKaEe7/rHNmQmqRjazfOP5W8PB6Jpebb5o6fIapbz9o9+2ipcaTM2ZwDI6lw==
 
 "yargs-help-output@file:.":
-  version "2.0.1"
+  version "3.0.0"
   dependencies:
     execa "^7.0.0"
     yargs "^17.0.0"
