@@ -2757,10 +2757,10 @@ minipass@^4.0.2, minipass@^4.2.4:
   resolved "https://registry.yarnpkg.com/minipass/-/minipass-4.2.5.tgz#9e0e5256f1e3513f8c34691dd68549e85b2c8ceb"
   integrity sha512-+yQl7SX3bIT83Lhb4BVorMAHVuqsskxRdlmO9kTpyukp8vsm2Sn/fUOV9xlnG8/a5JsypJzap21lz/y3FBMJ8Q==
 
-mocha-helpers@^7.0.0:
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/mocha-helpers/-/mocha-helpers-7.1.0.tgz#17c9e1a4a0baa552164966b5e95031ea2fb38d5b"
-  integrity sha512-1/2e+3vJVfPi3vkeZ6rLFRa5hjy74KhJnzM5lN9Jbj7RTNIVPi2Fe5QlHiPqyg/v2/hxfaZjmFMcaCUxJmpEMg==
+mocha-helpers@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/mocha-helpers/-/mocha-helpers-8.0.0.tgz#ac745ed5b1d994ef790af723dbe41463297d4337"
+  integrity sha512-YkCfhkAkKS+GM6LmDo+lZ7lnMjkA/nJnDGuBMnnwKc8hH7Cl1BV/3mfbxMI/G1GyODFD/iJIbhY7sv52bzhr8A==
   dependencies:
     callsites "^3.0.0"
     commondir "^1.0.1"
