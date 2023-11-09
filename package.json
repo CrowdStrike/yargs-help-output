@@ -51,7 +51,7 @@
     "remark-cli": "^11.0.0",
     "remark-preset-lint-crowdstrike": "^3.0.0",
     "renovate-config-standard": "^2.1.1",
-    "standard-node-template": "4.1.0",
+    "standard-node-template": "6.0.0",
     "standard-version": "^9.2.0",
     "tmp": "0.2.1",
     "yargs-help-output": "file:"
