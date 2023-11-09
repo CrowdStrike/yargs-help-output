@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.0.0](https://github.com/CrowdStrike/yargs-help-output/compare/v4.0.0...v5.0.0) (2023-11-09)
+
 ## [4.0.0](https://github.com/CrowdStrike/yargs-help-output/compare/v3.0.0...v4.0.0) (2023-07-27)
 
 ## [3.0.0](https://github.com/CrowdStrike/yargs-help-output/compare/v2.0.1...v3.0.0) (2023-03-31)
