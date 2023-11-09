@@ -3976,10 +3976,10 @@ sprintf-js@~1.0.2:
   resolved "https://registry.npmjs.org/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
   integrity sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=
 
-standard-node-template@4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/standard-node-template/-/standard-node-template-4.0.1.tgz#059a15d37c89a6006c5cd23e0c110f0dd46b3093"
-  integrity sha512-hCPBmRiz82IjhqSFbjNmByfzZAB1SKN61AeQObHRO73/mFQ/shzR3DcHG2oPrqfvM7FFnrDErWE1dF49nl4kWQ==
+standard-node-template@4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/standard-node-template/-/standard-node-template-4.1.0.tgz#c5415e2ddf9f680c33fa6dc7915d4d31b69ad483"
+  integrity sha512-Gs0Ap5hnDDMxCozlVn289EYX+xkEym/Xmno6v3a94OOLS7MQ7FlRX+qQx68zNtFlvCDr9cWljUcezPrgTEWW/w==
 
 standard-version@^9.2.0:
   version "9.2.0"
