@@ -48,7 +48,7 @@
     "eslint-plugin-node": "^11.1.0",
     "mocha": "^10.0.0",
     "mocha-helpers": "^8.0.0",
-    "remark-cli": "^11.0.0",
+    "remark-cli": "^12.0.0",
     "remark-preset-lint-crowdstrike": "^3.0.0",
     "renovate-config-standard": "^2.1.1",
     "standard-node-template": "6.0.0",
