@@ -1372,10 +1372,10 @@ eslint-plugin-es@^3.0.0:
     eslint-utils "^2.0.0"
     regexpp "^3.0.0"
 
-eslint-plugin-json-files@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-json-files/-/eslint-plugin-json-files-3.0.0.tgz#146e3c24ba25a6c932bbda9b86ef9274d2b1dc23"
-  integrity sha512-sv9ma6T1i9VxB6WqciiO9mzHxToF+hxeN4rwxGtew75uPTiSAI0E9Zyw4YsCz6p7WJD5XeRpV0JeG7YokI6MOg==
+eslint-plugin-json-files@^4.0.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-json-files/-/eslint-plugin-json-files-4.1.0.tgz#bc31afae1417dc1558e15509f7b296b90071a992"
+  integrity sha512-oK9SxvFp5vyq+cXo76Ily9rN/iPM2w8T6MtPgJAlKP2jfZeDdeD0qgTIGiMeHZjS0eURXs5Vn+KgYVh0e/u7pA==
   dependencies:
     ajv "^8.2.0"
     better-ajv-errors "^1.2.0"
