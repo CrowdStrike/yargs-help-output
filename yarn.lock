@@ -248,6 +248,11 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@eslint/js@^9.0.0":
+  version "9.9.0"
+  resolved "https://registry.yarnpkg.com/@eslint/js/-/js-9.9.0.tgz#d8437adda50b3ed4401964517b64b4f59b0e2638"
+  integrity sha512-hhetes6ZHP3BlXLxmd8K2SNgkhNSi+UcecbnwWKwpP7kyi/uC75DJ1lOOBO3xrC4jyojtGE3YxKZPHfk4yrgug==
+
 "@humanwhocodes/config-array@^0.6.0":
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.6.0.tgz#b5621fdb3b32309d2d16575456cbc277fa8f021a"
@@ -1392,10 +1397,12 @@ eslint-config-crowdstrike-node@3.0.1:
   resolved "https://registry.yarnpkg.com/eslint-config-crowdstrike-node/-/eslint-config-crowdstrike-node-3.0.1.tgz#06f07c68c21334ff7c18b75cd08741b051248323"
   integrity sha512-xnRYvEw7ayI2thHX0n4QyrMM4Uaa8zx7IU4w3vidZijM9YH2X+IgN3t/+HpRGHVcBQL0p3r0ScTvAoZRryhKug==
 
-eslint-config-crowdstrike@10.1.0:
-  version "10.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-crowdstrike/-/eslint-config-crowdstrike-10.1.0.tgz#f46fd56e4ec9b4f89d27be608aea049530db164e"
-  integrity sha512-Wy4HdaVBfe5ItXI71Szv2viO7yvX8ZMeG1TblxYy84eAYi9S2p5fMzlwU1JJUlocu7cKBS697+KWYUM8+zk6oQ==
+eslint-config-crowdstrike@11.0.1:
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-config-crowdstrike/-/eslint-config-crowdstrike-11.0.1.tgz#df2f2ce24407acb64367e48636533fb1a6b87f8b"
+  integrity sha512-fUvpcv0h6ITZPsFSg+98Lk+U6zT6csJzSe6j8n1J5gmIKw3psPIKRhlDKUr4DD7t8+Xbl4HUnRHhxfFu1I4C/Q==
+  dependencies:
+    "@eslint/js" "^9.0.0"
 
 eslint-plugin-es@^3.0.0:
   version "3.0.1"
@@ -4523,8 +4530,7 @@ stringify-package@^1.0.1:
   resolved "https://registry.npmjs.org/stringify-package/-/stringify-package-1.0.1.tgz#e5aa3643e7f74d0f28628b72f3dad5cecfc3ba85"
   integrity sha512-sa4DUQsYciMP1xhKWGuFM04fB0LG/9DlluZoSVywUMRNvzid6XucHK0/90xGxRoHrAaROrcHK1aPKaijCtSrhg==
 
-"strip-ansi-cjs@npm:strip-ansi@^6.0.1", strip-ansi@^6.0.1:
-  name strip-ansi-cjs
+"strip-ansi-cjs@npm:strip-ansi@^6.0.1":
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
   integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
@@ -4537,6 +4543,13 @@ strip-ansi@^6.0.0:
   integrity sha512-AuvKTrTfQNYNIctbR1K/YGTR1756GycPsg7b9bdV9Duqur4gv6aKqHXah67Z8ImS7WEz5QVcOtlfW2rZEugt6w==
   dependencies:
     ansi-regex "^5.0.0"
+
+strip-ansi@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
+  integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
+  dependencies:
+    ansi-regex "^5.0.1"
 
 strip-ansi@^7.0.0:
   version "7.0.0"
