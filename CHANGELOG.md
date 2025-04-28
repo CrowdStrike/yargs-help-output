@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [5.0.2](https://github.com/CrowdStrike/yargs-help-output/compare/v5.0.1...v5.0.2) (2025-04-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency execa to v9 ([63dce99](https://github.com/CrowdStrike/yargs-help-output/commit/63dce993d1287ccc828a3f45d66b17a658b8d25a))
+
 ### [5.0.1](https://github.com/CrowdStrike/yargs-help-output/compare/v5.0.0...v5.0.1) (2023-11-09)
 
 

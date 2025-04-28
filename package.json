@@ -1,6 +1,6 @@
 {
   "name": "yargs-help-output",
-  "version": "5.0.1",
+  "version": "5.0.2",
   "description": "Update docs to include the full output of yargs help",
   "repository": {
     "type": "git",
