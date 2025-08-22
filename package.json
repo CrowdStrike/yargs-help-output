@@ -38,7 +38,7 @@
   "devDependencies": {
     "@crowdstrike/commitlint": "^8.0.0",
     "chai": "^4.3.0",
-    "chai-as-promised": "^7.1.1",
+    "chai-as-promised": "^8.0.0",
     "chai-fs": "^2.0.0",
     "eslint": "^8.0.0",
     "eslint-config-crowdstrike": "10.1.0",
