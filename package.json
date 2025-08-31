@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "execa": "^9.0.0",
-    "yargs": "^17.0.0"
+    "yargs": "^18.0.0"
   },
   "devDependencies": {
     "@crowdstrike/commitlint": "^8.0.0",
